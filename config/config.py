@@ -1,0 +1,15 @@
+#coding=utf-8
+FILE_NAME = './testcase.xls'
+ID = 0
+MOUDLE = 1
+URL = 2
+IS_RUN = 3
+METHOD = 4
+IS_HEADER = 5
+HEADER = 6
+DEPEND_ID = 7
+DEPEND_DATA = 8
+DEPEND_COL = 9
+DATA = 10
+EXPECT_CODE = 11
+RESULT = 12
