@@ -23,12 +23,12 @@ class test(unittest.TestCase):
             expect_result = self.ET.get_cell(i, config.EXPECT_CODE)
             if is_run == 'yes':
                 if method == 'Post':
-                    if is_header == 'yse':
+                    if is_header == 'yes':
                         result = self.run_method.send_post(url,data,header)
                     else:
                         result = self.run_method.send_post(url,data)
                 else:
-                    if is_header == 'yse':
+                    if is_header == 'yes':
                         result = self.run_method.send_get(url,header)
                     else:
                         result = self.run_method.send_get(url)
